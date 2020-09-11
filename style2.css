@@ -1,0 +1,278 @@
+body{
+  margin:0px;
+  
+}
+
+.top
+{ padding-top:0px;
+  background-size:cover;
+  margin-top:-20px;
+  
+  
+  width: 100%;
+  height: 250px;
+}
+
+header{
+  margin-top:0px;
+  background: url('http://www.southbaywebsitedesign.com/wp-content/uploads/2014/09/banner-main-bg.jpg') center no-repeat;
+  
+  
+  height: 150px;
+  width: 100%;
+
+}
+/*.top{
+    min-width: 500px;
+    min-height: 240px;
+    animation: animate 5s infinite;
+    margin-top:0px;
+}*/
+
+.top ul li img{
+  width: 200px;
+  height:100px;
+  padding-bottom:20px;
+  padding-right:80px;
+}
+.top ul li ,.appl ul li{
+  list-style-type:none;
+  padding-left:100px;
+  float: left;
+  padding-top:20px;
+}
+.top ul li input[type=text]{
+  padding-left:20px;
+  margin-top:20px;
+  height:30px;
+  width: 300px;
+   border-radius:30px; 
+}
+.top ul .l2 button{
+  padding-top: 10px;
+  margin-top: 20px; 
+  height: 35px;
+  width:  90px;
+  border-radius: 35px;
+  text-align: center;
+  margin-right:30px;
+  padding-bottom:10px;
+}
+.top ul .l1 button{
+  float:none;
+  height:35px;
+  width: 35px;
+  border-radius:35px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  margin-top:20px;
+}
+
+
+.top ul .l1{
+  padding-left:0px;
+}
+
+  
+  
+}
+.top nav ul{
+  float: left;
+
+  padding-left:60px; 
+ 
+}
+.top nav{
+  background-color:#eebb4d;
+  height: 50px;
+  margin-top: -20px;
+}
+
+.top nav ul a{
+    
+    margin-top: 10px;
+  list-style-type: none;
+  float: left;
+  padding-right: 120px;
+  font-family: "Times New Roman", Times, serif;
+  color:black;
+  }
+
+footer .inner div{
+  display:table-cell;
+  float: left;
+  padding: 10px;
+  padding-top: 25px;
+ 
+}
+footer .inner .part2 .mail{
+  padding-left: 106px;
+}
+footer .inner .part2 .office{
+  padding-left: 70px;
+}
+
+
+
+footer  {
+  margin-top: 0px;
+  background-color:#2196F3;
+  height: 240px;
+  text-align: left;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  
+  
+  
+  
+  
+  width: 100%;
+  
+
+}
+
+footer .inner .part1 .about li,.inner .part1 .help li, .inner .part1 .policy li{
+
+  list-style-type: none;
+  padding-top: 5px;
+}
+
+footer .inner div li a{
+text-decoration: none;
+color: black;
+
+}
+footer .inner div h3{
+  color:crimson;
+
+  
+}
+footer .inner .part1 .about h3, .part1 .help h3, .part1 h3{
+  padding-left: 39px;
+} 
+
+
+
+
+.product{
+  margin-top:-60px; 
+  height: 120vh;
+  width:100%;
+  background-color:darkgray
+}
+.product .inner{
+  padding-top: 150px;
+  display: flex;
+  padding-left: 34px;
+}
+.product .inner .im ul li #ph{
+  border: 5px solid violet;
+  height: 400px;
+  
+}
+.product .inner .im ul li{
+  list-style-type: none;
+}
+.product .inner .im ul li #ph{
+    transition: transform .2s;
+
+}
+.product .inner .im ul li #ph:hover{
+    transform: scale(1.4);
+
+}
+.product .inner .im ul  .b1 button{
+  height:40px;
+  width: 180px;
+  color:white;
+  background-color:darkorange
+  
+}
+.product .inner .im ul .b1{
+  padding-top: 10px;
+  padding-left: 30px;
+  
+}
+.product .inner .in{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 20px;
+}
+.product .inner .in .h1,.h2{
+  padding-left: 30px;
+}
+@media screen and (max-width:600px){
+  .product {
+    height: 180vh;
+    width: 220%;
+    background-color: darkgray;
+    padding-top: 165px;
+}
+footer {
+    background-color: #2196F3;
+    height: 550px;
+    text-align: left;
+    width: 220%;
+    display:block;
+    float: left;
+    font-size: 22px;
+}
+footer .inner .part1 {
+  display: flex;
+}
+footer .inner .part2{
+  display: flex;
+}
+footer  .inner .part1 div{
+  padding-left: 40px;
+}
+footer .inner  .part2 div{
+  padding-right: 40px;
+}
+footer .inner  div{
+  display:table-cell;
+  float: left;
+  padding: 0px;
+  padding-top: 25px;
+ 
+}
+.product .inner .im ul .b1 button {
+    height: 50px;
+    width: 180px;
+    color: white;
+    background-color: darkorange;
+    font-size: 22px;
+}
+.product .inner .im ul li #ph{
+    border: 5px solid violet;
+    height: 200px;
+    width: 223px;
+}
+.product .inner {
+    padding-top: 250px;
+    display: flex;
+    padding-left: 4px;
+}
+.product .inner .in {
+    padding-left: 2px;
+    font-size: 22px;
+}
+.product {
+    height: 190vh;
+    width: 220%;
+    background-color: darkgray;
+    padding-top: 165px;
+}
+.product .inner .im ul li #ph {
+    border: 5px solid violet;
+    height: 400px;
+}
+.product .inner .im ul .b1 {
+    padding-top: 10px;
+    padding-left: 0px;
+}
+
+}

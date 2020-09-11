@@ -1,0 +1,489 @@
+body{
+  margin:0px;
+  overflow-x: hidden; 
+}
+
+.top
+{ padding-top:0px;
+  background-size:cover;
+  margin-top:-30px;
+  
+  
+  width: 100%;
+  height: 250px;
+}
+
+header{
+  margin-top:0px;
+  background: url('http://www.southbaywebsitedesign.com/wp-content/uploads/2014/09/banner-main-bg.jpg') center no-repeat;
+  
+  
+  height: 150px;
+  width: 100%;
+
+}
+/*.top{
+    min-width: 500px;
+    min-height: 240px;
+    animation: animate 5s infinite;
+    margin-top:0px;
+}*/
+
+.top ul li img{
+  width: 200px;
+  height:100px;
+  padding-bottom:20px;
+  padding-right:80px;
+}
+.top ul li ,.appl ul li{
+  list-style-type:none;
+  padding-left:100px;
+  float: left;
+  padding-top:20px;
+}
+.top ul li input[type=text]{
+  padding-left:20px;
+  margin-top:20px;
+  height:30px;
+  width: 300px;
+   border-radius:30px; 
+}
+.top ul .l2 button{
+  padding-top: 10px;
+  margin-top: 20px; 
+  height: 35px;
+  width:  90px;
+  border-radius: 35px;
+  text-align: center;
+  margin-right:30px;
+  padding-bottom:10px;
+}
+.top ul .l1 button{
+  float:none;
+  height:35px;
+  width: 35px;
+  border-radius:35px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  margin-top:20px;
+}
+
+
+.top ul .l1{
+  padding-left:0px;
+}
+
+  
+  
+}
+.top nav ul{
+  float: left;
+
+  padding-left:60px; 
+ 
+}
+.top nav{
+  background-color:#eebb4d;
+  height: 50px;
+  margin-top: -20px;
+}
+
+.top nav ul a{
+    
+    margin-top: 10px;
+  list-style-type: none;
+  float: left;
+  padding-right: 120px;
+  font-family: "Times New Roman", Times, serif;
+  color:black;
+  }
+    header ul .list2 #x{
+  padding: 4px;
+
+}
+
+
+.product .inner ul  .phone img{
+    transition: transform .2s;
+
+}
+.product .inner ul  .phone img:hover{
+    transform: scale(1.2);
+
+}
+
+
+
+
+.product .inner .c1 .oppo img{
+  height: 70px;
+  padding-top: 9px;
+}
+.product .inner .c1 .phone img{
+  padding-top: 10px;
+  height: 180px;
+  width: 280px;
+}
+.product{
+  height: 60vh;
+ 
+  width: 100%;
+  margin-top: -50px;
+  
+}
+.product .inner{
+  
+  display: flex;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+
+}
+.product .inner .c1 ul {
+  list-style-type: none;
+  text-align: center;
+  padding-left: 10px;
+  
+}
+.product .inner .c1 .phone{
+  padding-top: 10px;
+}
+
+.product .inner .c1 .oppo:hover{
+  border:2px solid green;
+ 
+
+}
+product .inner .c1 .oppo {
+  transition-property:width;
+
+}
+product .inner .c1 .oppo:hover{
+  width: 200px;
+
+}
+
+
+
+
+.product .inner .c2 .vivo img{
+  height: 40px;
+}
+.product .inner .c2 .phone img{
+  padding-top: 12px;
+  height: 200px;
+}
+
+
+.product .inner .c2 ul {
+  list-style-type: none;
+  text-align: center;
+ 
+}
+.product .inner .c2 .phone{
+  padding-top: 10px;
+}
+.product .inner .c2{
+  padding-top: 17px;
+}
+.product .inner .c2 ul li{
+  padding-top: 6px;
+}
+.product .inner .c2 .vivo{
+  transition-property: width;
+}
+.product .inner .c2 .vivo:hover{
+  border:2px solid green;
+  width: 200px;
+
+}
+
+
+
+.product .inner .c3 .xiaomi img{
+  height: 30px;
+}
+.product .inner .c3 .phone img{
+  padding-top: 8px;
+  height: 200px;
+}
+
+
+.product .inner .c3 ul {
+  list-style-type: none;
+  text-align: center;
+}
+.product .inner .c3 .phone{
+  padding-top: 10px;
+}
+.product .inner .c3{
+  padding-top: 23px;
+}
+.product .inner .c3 ul li{
+  padding-top: 6px;
+}
+.product .inner .c3 .xiaomi{
+  transition-property: width;
+}
+.product .inner .c3 .xiaomi:hover{
+  border:2px solid green;
+  width: 200px;}
+
+
+
+
+
+.product .inner .c4 .iphone img{
+  height: 30px;
+}
+.product .inner .c4 .phone img{
+  padding-top: 8px;
+  height: 200px;
+}
+
+
+.product .inner .c4 ul {
+  list-style-type: none;
+  text-align: center;
+  
+}
+.product .inner .c4 .phone{
+  padding-top: 10px;
+}
+.product .inner .c4{
+  padding-top: 23px;
+}
+.product .inner .c4 ul li{
+  padding-top: 6px;
+}
+.product .inner .c4 .iphone{
+  transition-property: width;
+}
+.product .inner .c4 .iphone:hover{
+  border:2px solid green;
+  width: 200px;}
+
+
+
+
+.product .inner .c5 .samsung img{
+  height: 80px;
+}
+.product .inner .c5 .phone img{
+  padding-top: 8px;
+  height: 190px;
+}
+
+
+.product .inner .c5 ul {
+  list-style-type: none;
+  text-align: center;
+}
+.product .inner .c5 .phone{
+  padding-top: 6px;
+}
+.product .inner .c5{
+ 
+  padding-top: 8px;
+}
+.product .inner .c5 ul li{
+  padding-top: 2px;
+}
+.product .inner .c5 .samsung{
+  transition-property: width;
+}
+.product .inner .c5 .samsung:hover{
+  border:2px solid green;
+  width: 200px;}
+
+footer .inner div{
+  display:table-cell;
+  float: left;
+  padding: 10px;
+  padding-top: 25px;
+ 
+}
+footer .inner .part2 .mail{
+  padding-left: 106px;
+}
+footer .inner .part2 .office{
+  padding-left: 70px;
+}
+
+
+
+footer  {
+  margin-top: 50px;
+  background-color:#2196F3;
+  height: 240px;
+  text-align: left;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  
+  
+  
+  
+  
+  width: 100%;
+  
+
+}
+
+footer .inner .part1 .about li,.inner .part1 .help li, .inner .part1 .policy li{
+
+  list-style-type: none;
+  padding-top: 5px;
+}
+
+footer .inner div li a{
+text-decoration: none;
+color: black;
+
+}
+footer .inner div h3{
+  color:crimson;
+
+  
+}
+footer .inner .part1 .about h3, .part1 .help h3, .part1 h3{
+  padding-left: 39px;
+} 
+
+
+
+@media screen and (max-width:600px) {
+ 
+  .home{
+    width: 220%;
+    height: 170vh;
+    padding-top: 410px;
+    background-color: cadetblue;
+    background-size: cover;
+}
+
+.home ul {
+    display: flex;
+    margin: 0px auto;
+    padding: 0px;
+    width: 90%;
+    overflow: hidden;
+    padding-top: 180px;
+}
+.home ul li img {
+    height: 350px;
+}
+.home .deals ul li img {
+    height: 310px;
+}
+header img {
+    height: 130px;
+    padding: 2px 5px;
+}
+header ul .list1 {
+ 
+    width: 500px;
+    padding:6px;
+}
+header ul .list1 input[type=text] {
+    padding: 15px;
+    width: 60%;
+}
+header {
+    background-color: yellow;
+   height: 240px;
+    width: 100%;
+}
+
+.main a:hover{
+  color:beige;
+  text-transform: uppercase;
+}
+footer {
+    background-color: #2196F3;
+    height: 500px;
+    text-align: left;
+    width: 220%;
+    display: flex;
+    float: left;
+}
+button.next{
+  position: absolute;
+    left:539px;
+    bottom: -127%;
+}
+button.prev {
+    position: absolute;
+    left: 179px;
+    bottom: -127%;
+}
+.main{
+  padding:  5px 0 5px 0;
+text-align: center;
+  
+  line-height: 50px;
+  background-color:#ffcb74;
+  
+   
+}
+.main a{
+  padding: 0 10px 0 10px;
+  display: inline;
+  text-decoration: none;
+  
+  color: brown;
+  padding: 18px;
+  font-size: 30px;
+}
+.product .inner{
+ 
+ padding-left: 99px;
+  display:table-cell;
+  font-size: 40px;
+}
+.product {
+    height: 4100px;
+    width: 100%;
+    padding-top: 450px;
+}
+footer {
+    background-color: #2196F3;
+    height: 550px;
+    text-align: left;
+    width: 220%;
+    display:block;
+    float: left;
+    font-size: 22px;
+}
+footer .inner .part1 {
+  display: flex;
+}
+footer .inner .part2{
+  display: flex;
+}
+footer .inner .part1 div{
+  padding-left: 40px;
+}
+footer .inner .part2 div{
+  padding-right: 40px;
+}
+footer .inner div{
+  display:table-cell;
+  float: left;
+  padding: 0px;
+  padding-top: 25px;
+ 
+}
+
+  }
+  
+
+
+@media screen and (max-width:374px){
+  header ul .list2{
+    padding-bottom: 0px;
+  } 
+}
+

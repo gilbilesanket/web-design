@@ -1,0 +1,160 @@
+body{
+  margin:0px;
+  
+}
+
+.top
+{ padding-top:0px;
+  background-size:cover;
+  margin-top:-20px;
+  
+  
+  width: 100%;
+  height: 250px;
+}
+
+header{
+  margin-top:0px;
+  background: url('http://www.southbaywebsitedesign.com/wp-content/uploads/2014/09/banner-main-bg.jpg') center no-repeat;
+  
+  
+  height: 150px;
+  width: 100%;
+
+}
+/*.top{
+    min-width: 500px;
+    min-height: 240px;
+    animation: animate 5s infinite;
+    margin-top:0px;
+}*/
+
+.top ul li img{
+  width: 200px;
+  height:100px;
+  padding-bottom:20px;
+  padding-right:80px;
+}
+.top ul li ,.appl ul li{
+  list-style-type:none;
+  padding-left:100px;
+  float: left;
+  padding-top:20px;
+}
+.top ul li input[type=text]{
+  padding-left:20px;
+  margin-top:20px;
+  height:30px;
+  width: 300px;
+   border-radius:30px; 
+}
+.top ul .l2 button{
+  padding-top: 10px;
+  margin-top: 20px; 
+  height: 35px;
+  width:  90px;
+  border-radius: 35px;
+  text-align: center;
+  margin-right:30px;
+  padding-bottom:10px;
+}
+.top ul .l1 button{
+  float:none;
+  height:35px;
+  width: 35px;
+  border-radius:35px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  margin-top:20px;
+}
+
+
+.top ul .l1{
+  padding-left:0px;
+}
+
+  
+  
+}
+.top nav ul{
+  float: left;
+
+  padding-left:60px; 
+ 
+}
+.top nav{
+  background-color:#eebb4d;
+  height: 50px;
+  margin-top: -20px;
+}
+
+.top nav ul a{
+    
+  margin-top: 10px;
+  list-style-type: none;
+  float: left;
+  padding-right: 120px;
+  font-family: "Times New Roman", Times, serif;
+  color:black;
+  }
+
+.c1{
+  display: flex;
+  margin-top: 0px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.c1 .details{
+  padding-left: 80px;
+}
+.c1 .tv{
+  padding-left: 80px;
+}
+.c2{
+  display: flex;
+  padding-top: 0px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.c2 .details{
+  padding-left: 80px;
+}
+.c2 .tv{
+  padding-left: 80px;
+}
+.c3{
+  display: flex;
+  padding-right: 30px;
+  
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.c3 .details{
+  padding-left: 80px;
+}
+.c3 .tv{
+  padding-left: 80px;
+}
+.c4{
+  display: flex;
+  padding-top: 30px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.c4 .details{
+  padding-left: 80px;
+}
+.c4 .tv{
+  padding-left: 80px;
+}
+.c1{
+  display: flex;
+  padding-top: 300px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.c1 .details{
+  padding-left: 80px;
+}
+.c1 .tv{
+  padding-left: 80px;
+}
